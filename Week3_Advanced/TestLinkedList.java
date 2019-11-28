@@ -36,7 +36,7 @@ public class TestLinkedList {
 			System.out.println(s);
 			System.out.println();
 		}
-		
+		System.out.println("List is circular?");
 	    System.out.print(s.isCircular(s.getHead())? "Yes\n" : 
                 "No\n" ); 
 	}
