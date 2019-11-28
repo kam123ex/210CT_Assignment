@@ -10,25 +10,25 @@ public class BTSTest {
         System.out.println("Inserting :");
         
 //		Q8
-		for(int i = 0; i < arrQ8.length; i++) {
-			tree.insert(arrQ8[i]);
-			System.out.print(arrQ8[i] + " ");
-		}
+//		for(int i = 0; i < arrQ8.length; i++) {
+//			tree.insert(arrQ8[i]);
+//			System.out.print(arrQ8[i] + " ");
+//		}
 
 //		Q9
-//		for(int i = 0; i < arrQ9.length; i++) {
-//			tree.insert(arrQ9[i]);
-//			System.out.print(arrQ9[i] + " ");
-//		}
+		for(int i = 0; i < arrQ9.length; i++) {
+			tree.insert(arrQ9[i]);
+			System.out.print(arrQ9[i] + " ");
+		}
 		
 //		balance the tree
         tree.root = tree.buildBTree(tree.root); 
         System.out.println("\n"); 
         System.out.println("Preorder traversal of balanced BST is :"); 
-        tree.preorderSubtree(tree.root);
+        tree.inorderSubtree(tree.root);
         System.out.println(); 
         
-		tree.search(77);
+		//tree.search(77);
 		
 		
 		

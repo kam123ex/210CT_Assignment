@@ -6,12 +6,12 @@ public class TestRecusiveSearch {
 
 		RecursiveSearch rs = new RecursiveSearch();
 		
-		int[] arr1 = { 2, 45, 234, 567, 876, 900, 976, 999 };
+		int[] arr1 = { 2, 45, 54, 57, 76, 90, 96, 99 };
 		int index = rs.recursiveBinarySearch(arr1, 0, arr1.length, 45);
 		System.out.println("Found 45 at " + index + " index");
-		index = rs.recursiveBinarySearch(arr1, 0, arr1.length, 999);
-		System.out.println("Found 999 at " + index + " index");
-		index = rs.recursiveBinarySearch(arr1, 0, arr1.length, 876);
-		System.out.println("Found 876 at " + index + " index");
+		index = rs.recursiveBinarySearch(arr1, 0, arr1.length, 99);
+		System.out.println("Found 99 at " + index + " index");
+		index = rs.recursiveBinarySearch(arr1, 0, arr1.length, 96);
+		System.out.println("Found 96 at " + index + " index");
 	}
 }

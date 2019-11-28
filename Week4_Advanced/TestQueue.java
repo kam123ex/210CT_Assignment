@@ -8,7 +8,6 @@ import miscLib.GenLib;
 public class TestQueue {
 
     public static void main(String[] args) {
-		//ListQueue q = new ListQueue();
 		ArrayQueue q = new ArrayQueue(20);
 		byte barray[] = new byte[20];
 		int n;
